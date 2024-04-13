@@ -1,0 +1,56 @@
+{
+    "main_url": "https://www.wolframalpha.com/",
+    "auth_url": "https://account.wolfram.com/login/oauth2/sign-in",
+    "register_url": "https://account.wolfram.com/login/create",
+    
+    "test1_result": 500,
+
+    "test_mail":"test@mail.com",
+    "invalid_mail":"invalid_mail/com",
+
+    "true_pass":"p4ssw0rd",
+    "incorr_pass":"pass",
+
+    "corr_lastname":"Lastname",
+    "incorr_lastname":"l4stn4m3",
+
+    "corr_name":"Name",
+    "incorr_name":"N4M3",
+
+    "ind_integ":"integrate x^2 sin x dx",
+    "integ_result":"integral x^2 sin(x) dx = 2 x sin(x) - (x^2 - 2) cos(x) + constant",
+    "integ_wrong":"wrong answer",
+
+    "def_int":"integrate sin x dx from x=0 to pi",
+    "def_result":"integral_0^π sin(x) dx = 2",
+
+    "der_func":"derivative of x^2 sin x",
+    "der_result":"d/dx(x^2 sin(x)) = x (2 sin(x) + x cos(x))",
+
+    "high_der":"second derivative of sin(2x)",
+    "high_result":"d^2/dx^2(sin(2 x)) = -4 sin(2 x)",
+
+    "limit":"lim (sin x - x)/x^3 as x->0",
+    "lim_result": "lim_(x->0) (sin(x) - x)/x^3 = -1/6",
+
+    "equation":"x+3=5",
+    "eq_result":"x = 2",
+
+    "system":"6x-4y=12, 5x+4y=32",
+    "sys_result":"x = 4, y = 3",
+
+    "fraction":"partial fractions (x^2-4)/(x^4-x)",
+    "partion_fractions":"(x^2 - 4)/(x^4 - x) = (-3 x - 1)/(x^2 + x + 1) - 1/(x - 1) + 4/x",
+
+    "root":"1/(1+sqrt(2))",
+    "root_solve":"sqrt(2) - 1",
+
+    "power":"simplify x^5-20x^4+163x^3-676x^2+1424x-1209",
+    "power_solve":"(x - 4)^5 + 3 (x - 4)^3 + 7",
+
+    "cylinder":"cylinder",
+
+    "triangle":"5, 12, 13 triangle",
+
+    "line":"line through (1,2) and (2,1)"
+}
